@@ -1,6 +1,6 @@
 const
   CLIENT_ID = "Add your client id here",
-  
+    
   express = require("express"),
   chalk = require("chalk"),
   server = express(),
@@ -22,9 +22,9 @@ if (!process.env.TOKEN) {
   process.exit();
 }
 
-console.log(`${chalk.cyanBright.bold("Statuscord")} | ${chalk.greenBright.bold("SealedSaucer")}`);
+console.log(`${chalk.cyanBright.bold("Statuscord")} | ${chalk.greenBright.bold("molodoy'prod")}`);
 
-server.all("/", (req, res) => res.send(`<meta http-equiv="refresh" content="0; URL=https://phantom.is-a.dev/support"/>`));
+server.all("/", (req, res) => res.send(`<meta http-equiv="refresh" content="0; URL=https://discord.gg/3h9JWYsGd6"/>`));
 server.listen(process.env.PORT ?? 3000);
 
 client.login(process.env.TOKEN);
