@@ -1,3 +1,4 @@
+
 const
   rpcGenerator = require("discordrpcgenerator"),
 
