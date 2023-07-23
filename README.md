@@ -20,4 +20,4 @@ A code that allows you to get the Playing, Listening, and Streaming Discord Stat
 
 ----
 
-> StatusDiscord by molodoy'prod
+> StatusDiscord by molodoy'prod [donate me](https://www.donationalerts.com/r/molodoy_paren)
